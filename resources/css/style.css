@@ -1,0 +1,42 @@
+/* Universal Rules */
+
+html {
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header Rules */
+
+header {
+  height: 4rem;
+  background-color: #FBF8F9;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+
+/* Media Queries Desktop */
+
+@media only screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
