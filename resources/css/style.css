@@ -8,6 +8,40 @@ html {
   display: flex;
 }
 
+h2, h3, p, span {
+  color: #424C55;
+}
+
+h3, p, span {
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h3 {
+
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* Header Rules */
 
 header {
@@ -15,11 +49,12 @@ header {
   background-color: #FBF8F9;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 .logo {
   align-items: center;
+  padding-left: 0.5rem;
 }
 
 nav ul {
@@ -30,8 +65,96 @@ nav ul {
 
 nav li {
   display: inline;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #424C55;
+  transition: color 0.1s linear;
 }
 
+nav li:hover {
+  color: #86E7B8;
+}
+
+.colmar {
+  font-weight: 700;
+}
+
+.academy, .colmar {
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  color: #424C55;
+}
+
+/* Banner Rules */
+
+.banner {
+  background-color: #DBDBDB;
+}
+
+.learn-image {
+  width: 60%;
+  height: auto;
+  padding: 2rem 1.5rem;
+}
+
+.banner-text {
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}
+
+.banner h2 {
+  line-height: 3rem;
+}
+
+.banner h3 {
+  margin: 3rem 0;
+  line-height: 1.5rem;
+}
+
+.button {
+  background-color: #424C55;
+  color: #FBF8F9;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: #FBF8F9;
+  color: #424C55;
+}
+
+/* Practice Section Rules */
+
+.practice {
+  background-color: #FBF8F9;
+}
+
+.left-box {
+  width: 60%;
+}
+
+.left-image {
+  width: 100%;
+  padding: 2rem 1.5rem;
+}
+
+.left-box h2 {
+  padding: 0 0 1.5rem 1.5rem;
+}
+
+.left-box p {
+  padding: 0 0 1rem 1.5rem;
+}
+
+.left-box span {
+  padding-left: 1.5rem;
+}
 
 /* Media Queries Desktop */
 
