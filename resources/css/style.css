@@ -50,6 +50,7 @@ span {
 
 a {
   color: #75CEB6;
+  text-decoration: none;
 }
 
 img {
@@ -181,22 +182,17 @@ nav li:hover {
 
 .right-box-image {
   width: 35%;
-  padding: 1.5rem 1.5rem;
+  padding: 1rem 1rem;
 }
 
 .right-box-text {
   width: 65%;
-  padding: 1.5rem 0;
   flex-direction: column;
   justify-content: center;
 }
 
 .right-box-text p {
   padding: 1rem 0;
-}
-
-.right-box-text a {
-  text-decoration: none;
 }
 
 .orientation {
@@ -254,6 +250,7 @@ nav li:hover {
 
 .exhibit-container {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .exhibit h2 {
@@ -270,11 +267,43 @@ nav li:hover {
 
 .exhibit-right-box {
   width: 100%;
-  border: 1px solid #DBDBDB;
+}
+
+.exhibit-right-box-image {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.fisma {
+  background-color: #DBDBDB;
 }
 
 .exhibit-right-box-text {
+  width: 65%;
   flex-direction: column;
+  justify-content: center;
+}
+
+.exhibit-right-box-text p {
+  padding: 1rem 0;
+}
+
+.exhibit-left-box {
+  margin: 0 1.5rem;
+}
+
+/* Footer Rules */
+
+footer {
+  background-color: #DBDBDB;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+footer a {
+  padding: 0rem 1rem;
 }
 
 /* Media Queries Desktop */
