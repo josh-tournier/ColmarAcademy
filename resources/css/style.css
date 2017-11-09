@@ -316,8 +316,132 @@ footer p, footer a {
 
 /* Media Queries Desktop */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 700px) {
   .mobile {
     display: none;
+  }
+}
+
+/* Media Queries Tablet */
+
+@media only screen and (max-width: 1024px) {
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  h4, h5 {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  span {
+    font-size: 0.4rem;
+  }
+
+}
+
+/* Media Queries Mobile */
+
+@media only screen and (max-width: 700px) {
+  .desktop {
+    display: none;
+  }
+
+  /* Header Queries */
+
+  nav.mobile {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* Banner Queries */
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .learn-image {
+    width: 100%;
+    height: auto;
+    padding: 0rem;
+  }
+
+  .banner-text {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  /* Practice Section Queries */
+
+  .practice {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+  .right-boxes {
+    width: 100%;
+  }
+
+  .right-box {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid ##DBDBDB;
+  }
+
+  /* Subjects Section Queries */
+
+  .subjects {
+    padding: 1.75rem 1rem;
+  }
+
+  .subjects h5, .subjects p {
+    display: none;
+  }
+
+  .courses {
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+  .course-box {
+    width: 100%;
+    margin: 0.25rem 0;
+    text-align: center;
+  }
+
+  .course-text {
+
+  }
+
+  .course-text h3 {
+    padding: 0;
+  }
+
+  /* Exhibit Section Queries */
+
+  .exhibit-left-box {
+    width: 100%;
+    margin: 0;
+  }
+
+  .exhibit-container {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Footer Section Queries */
+
+  footer {
+    justify-content: center;
   }
 }

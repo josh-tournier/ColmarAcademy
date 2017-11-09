@@ -12,7 +12,7 @@
     <!-- Header -->
 
     <header class="flex">
-      <div class="flex logo">
+      <div class="flex logo desktop">
         <img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo">
         <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
       </div>
@@ -24,8 +24,14 @@
           <li><a href="#">Sign In</a></li>
         </ul>
       </nav>
-      <nav class="mobile">
-        mobile
+
+      <!-- Tried to use the ul > li format list for the mobile nav but couldn't get it to display as the images were enormous and woudln't go inline -->
+
+      <nav class="mobile flex">
+          <a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo"></a>
+          <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="Classrom Desk Logo"></a>
+          <a href="#"><img src="./resources/images/ic-online.svg" alt="Computer Logo"></a>
+          <a href="#"><img src="./resources/images/ic-login.svg" alt="User Profile Logo"></a>
       </nav>
     </header>
 
@@ -45,7 +51,7 @@
     <!-- Main -->
 
     <section class="practice flex">
-      <div class="left-box">
+      <div class="left-box desktop">
         <div class="left-image">
           <img src="./resources/images/information-main.jpg" alt="Man reading a textbook in the park.">
         </div>
@@ -93,7 +99,7 @@
       <h2>Start Learning</h2>
       <div class="courses flex">
         <div class="course-box">
-          <div class="course-image">
+          <div class="course-image desktop">
             <img src="./resources/images/course-software.jpg" alt="Computer running web development software.">
           </div>
           <div class="course-text">
@@ -103,7 +109,7 @@
           </div>
         </div>
         <div class="course-box">
-          <div class="course-image">
+          <div class="course-image desktop">
             <img src="./resources/images/course-computer-art.jpg" alt="Point of view image of a person using an iPhone sat at a coffee table.">
           </div>
           <div class="course-text">
@@ -113,7 +119,7 @@
           </div>
         </div>
         <div class="course-box">
-          <div class="course-image">
+          <div class="course-image desktop">
             <img src="./resources/images/course-design.jpg" alt="A person taking a photograph using a DSLR camera.">
           </div>
           <div class="course-text">
@@ -123,7 +129,7 @@
           </div>
         </div>
         <div class="course-box">
-          <div class="course-image">
+          <div class="course-image desktop">
             <img src="./resources/images/course-data.jpg" alt="Apple Macbook running data software.">
           </div>
           <div class="course-text">
@@ -133,7 +139,7 @@
           </div>
         </div>
         <div class="course-box">
-          <div class="course-image">
+          <div class="course-image desktop">
             <img src="./resources/images/course-business.jpg" alt="Image of a chessboard.">
           </div>
           <div class="course-text">
@@ -143,7 +149,7 @@
           </div>
         </div>
         <div class="course-box">
-          <div class="course-image">
+          <div class="course-image desktop">
             <img src="./resources/images/course-marketing.jpg" alt="Person using a smartwatch.">
           </div>
           <div class="course-text">
@@ -164,12 +170,12 @@
           <div class="exhibit-left-box-video">
             <video src="./resources/videos/thesis.mp4" controls width="100%"></video>
           </div>
-          <div class="exhibit-left-box-text">
+          <div class="exhibit-left-box-text desktop">
             <h2>Reimagine Urban</h2>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           </div>
         </div>
-        <div class="exhibit-right-boxes">
+        <div class="exhibit-right-boxes desktop">
           <div class="exhibit-right-box fisma flex">
             <div class="exhibit-right-box-image">
               <img src="./resources/images/thesis-fisma.jpg" alt="A student hard at work on their thesis.">
@@ -196,7 +202,7 @@
 
     <footer class="flex">
       <p>© 2017 Colmar Academy. All rights reserved</p>
-      <div class="links">
+      <div class="links desktop">
         <a href="#">Terms</a>
         <a href="#">Privacy</a>
       </div>
